@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 9 - 10 </title>
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="paint-container">
+    <canvas id="paintCanvas" width="1400" height="600"></canvas>
+    <div class="controls">
+      <button id="clearBtn"><i class="far fa-file"></i></button>
+      <button id="eraserBtn"><i class="fas fa-eraser"></i> Eraser</button>
+      <input type="range" id="brushSize" min="2" max="15" value="5">
+      <button class="btn-primary" id="blueBtn"><i class="fas fa-paint-brush" style="color: blue;"></i></button>
+      <button class="btn-primary" id="blackBtn"><i class="fas fa-paint-brush" style="color: black;"></i></button>
+      <button class="btn-primary" id="redBtn"><i class="fas fa-paint-brush" style="color: red;"></i></button>
+      <button class="btn-primary" id="yellowBtn"><i class="fas fa-paint-brush" style="color: yellow;"></i></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

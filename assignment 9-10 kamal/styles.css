@@ -1,0 +1,32 @@
+#paint-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Added padding for spacing */
+}
+
+canvas {
+  border: 3px solid #000; /* Changed border color and thickness */
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+.controls {
+  margin-top: 10px; /* Increased margin for spacing */
+  display: flex; /* Added display flex for horizontal alignment */
+  justify-content: center; /* Center align the controls horizontally */
+}
+
+.controls button {
+  margin: 0 5px; /* Adjusted button margin for spacing */
+  padding: 8px 12px; /* Added padding for better button appearance */
+  border-radius: 5px; /* Added border radius for button styling */
+  border: none; /* Removed border for cleaner look */
+  cursor: pointer; /* Added cursor pointer for better usability */
+  background-color: #007bff; /* Changed button background color */
+  color: #fff; /* Changed button text color */
+  font-size: 16px; /* Adjusted font size */
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
